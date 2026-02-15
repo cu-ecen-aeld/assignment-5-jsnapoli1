@@ -7,7 +7,7 @@
 # Pseudocode Block 1: define where Buildroot fetches assignment sources.
 # - Pin to a specific commit for reproducible builds.
 # - Use the SSH URL required by assignment infrastructure.
-AESD_ASSIGNMENTS_VERSION = fa6231e85ac2f4a0884cbe698cca3481f92f54c0
+AESD_ASSIGNMENTS_VERSION = a0e2040ebe68f4d7fdb79219223b96dd336fbe20
 AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-aeld/assignments-3-and-later-jsnapoli1.git
 AESD_ASSIGNMENTS_SITE_METHOD = git
 AESD_ASSIGNMENTS_GIT_SUBMODULES = YES
