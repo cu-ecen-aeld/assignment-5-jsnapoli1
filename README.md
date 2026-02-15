@@ -18,3 +18,14 @@ It also contains instructions related to modifying your buildroot project to use
 ### Work log (hash + date)
 - `1e30a17` — 2026-02-07 — Baseline repository state with buildroot submodule registration.
 - `f476c87` — 2026-02-07 — Added external package integration, finder test script behavior updates, and assignment automation/report artifacts.
+
+## Assignment 5 Part 1 Summary
+
+### Architecture-level updates
+- Extended `aesd-assignments` Buildroot package build rules to compile both `finder-app` and `server` with `TARGET_CONFIGURE_OPTS`, ensuring `aesdsocket` is cross-compiled for the target architecture.
+- Extended install rules to stage `aesdsocket` at `/usr/bin/aesdsocket` and register `aesdsocket-start-stop` as `/etc/init.d/S99aesdsocket` for boot-time service management.
+- Updated `runqemu.sh` networking to keep SSH passthrough (`10022 -> 22`) and add socket forwarding (`9000 -> 9000`) so host tools can reach the VM service directly.
+- Added assignment planning and review artifacts (`plan-assignment5-part1.md`, `code-review-assignment5-part1.md`) documenting pseudocode-driven implementation and engineering rationale.
+
+### Work log (hash + date)
+- `d5fc178` — 2026-02-14 — Implemented assignment 5 part 1 package, QEMU forwarding, and technical planning/review documentation.
