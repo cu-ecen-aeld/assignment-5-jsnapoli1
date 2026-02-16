@@ -29,3 +29,6 @@ It also contains instructions related to modifying your buildroot project to use
 
 ### Work log (hash + date)
 - `d5fc178` — 2026-02-14 — Implemented assignment 5 part 1 package, QEMU forwarding, and technical planning/review documentation.
+
+### Codex Links:
+https://chatgpt.com/s/cd_69928af6840c819186a4e668113ca0b0
